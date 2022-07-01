@@ -1,0 +1,98 @@
+
+*{
+    padding: 10;
+    margin: 10;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+body{
+    background-color:rgb(255, 255, 255);
+    font-family: 'Titan One', cursive;
+}
+
+.container{
+    background-color: rgb(8, 187, 242);
+    height: 10vh;
+    width: 10vw;
+    
+    
+}
+.d1{
+    background-color: brown;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}/*
+.d1 p{
+    position: absolute;
+}*/
+.d1 img{
+    width: 100vw;
+    height: 40vh;
+}
+
+.d2{
+    background-color: aquamarine;
+    height: 40vh;
+    width: 100vw;
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    */
+    text-align: center;
+}
+.d2 img{
+    height: 20vh;
+    width: 20vw;
+}
+
+
+.d3{
+    background-color: rgb(223, 0, 238);
+    height: 40vh;
+    width: 100vw;
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    */
+    text-align: center;
+}
+.d3 img{
+    width: 15
+    vw;
+    height: 20vh;
+}
+.d4{
+    background-color: rgb(0, 238, 91);
+    height: 40vh;
+    width: 100vw;
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    */
+    text-align: center;
+}
+.d4 img{
+    height: 20vh;
+    width: 20vw;
+}
+.d1 p{
+    position :absolute;
+    font-size: 3em;
+    color:rgb(6, 192, 249);
+}
+
+img{
+    border: 1em;
+    border-style:outset ;
+}
